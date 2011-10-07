@@ -18,7 +18,7 @@ do
 done
 
 # Load enabled aliases, completion, plugins
-for file_type in "aliases" "completion" "plugins"
+for file_type in "aliases" "completion" 
 do
   if [ ! -d "${BASH}/${file_type}/enabled" ]
   then
